@@ -1,0 +1,11 @@
+.thumb {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.thumb input {
+	padding: 5px;
+}

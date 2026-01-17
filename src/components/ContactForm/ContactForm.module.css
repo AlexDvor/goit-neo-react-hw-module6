@@ -1,0 +1,34 @@
+.formWrap {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	gap: 10px;
+	border: 2px solid black;
+	padding: 10px;
+	border-radius: 2%;
+	margin-bottom: 30px;
+}
+
+.formWrap button {
+	padding: 10px;
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+.fieldBox {
+	display: flex;
+	flex-direction: column;
+}
+
+.fieldBox label {
+	margin-bottom: 5px;
+}
+.fieldBox input {
+	padding: 5px;
+}
+
+.error {
+	color: rgb(201, 23, 23);
+	margin: 0px;
+}
